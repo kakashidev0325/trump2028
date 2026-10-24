@@ -600,9 +600,9 @@ html{scroll-padding-top:64px}
 .header__row{gap:8px}
 .logo{gap:7px}
 .logo img{width:34px;height:34px;box-shadow:0 0 0 2px var(--ink),2px 2px 0 2px var(--pink)}
-.logo__word{font-size:1.25rem}
+.logo__word{font-size:1.05rem}
 .logo .badge--sm{display:none}
-.header__buy{height:40px;padding:0 12px;font-size:.78rem}
+.header__buy{height:40px;padding:0 10px;font-size:.72rem}
 .hero__stats div{padding:0 14px}
 .hero__panel{min-height:0;padding:30px 16px 240px}
 .hero__panel>.hero__ghost--a{height:50%;bottom:auto;top:36%}
