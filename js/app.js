@@ -1,52 +1,172 @@
 var NAI_CONFIG={
-CA:"0xb936cab857514bb917431cc8e2b7f1da5caa7777",
+CA:"",
 BUY_URL:"",
-CHAIN:"bsc",
-PAIR:"0x942d02dbc64aa1f90d351794286e15a72ee3d9ff",
-X_URL:"https://x.com/nailoong_bnb",
+CHAIN:"solana",
+PAIR:"",
+X_URL:"https://x.com/trump2028_x",
+TG_URL:"https://t.me/trump2028_tg",
 REFRESH_SECONDS:60,
 ROTATE_SECONDS:7,
-HERO_VIDEO:"Di9MuAwgBVU"
+HERO_VIDEO:""
 };
 
 var NAI_VIDEOS=[
-{id:"qVH4P8UJ5K8",cat:"ep",tag:"EP 12, English dub",tz:"第 12 集 · 英文配音",date:"3 Oct",dz:"10 月 3 日",title:"Gorilla's Singing, part 1",z:"猩猩唱歌（上）"},
-{id:"8i-vsrByXBE",cat:"ep",tag:"EP 11, English dub",tz:"第 11 集 · 英文配音",date:"1 Oct",dz:"10 月 1 日",title:"The Lost Robot, part 2",z:"迷路的机器人（下）"},
-{id:"5cLP9jvgvDQ",cat:"ep",tag:"EP 10, English dub",tz:"第 10 集 · 英文配音",date:"26 Sep",dz:"9 月 26 日",title:"The Lost Robot, part 1",z:"迷路的机器人（上）"},
-{id:"Yvqm5Xas4jk",cat:"ep",tag:"EP 10",tz:"第 10 集",date:"3 Oct",dz:"10 月 3 日",title:"Can Nailoong help the lost robot get home?",z:"奶龙能帮迷路的机器人回家吗？"},
-{id:"OTNstrnSqE8",cat:"ep",tag:"EP 9",tz:"第 9 集",date:"1 Oct",dz:"10 月 1 日",title:"Bombloong's Secret",z:"暴暴龙的秘密"},
-{id:"FBCSw0WDfUo",cat:"ep",tag:"EP 8",tz:"第 8 集",date:"26 Sep",dz:"9 月 26 日",title:"Roses at Midnight, part 2",z:"午夜玫瑰（下）"},
-{id:"mLd6P204y1E",cat:"special",tag:"Special",tz:"特辑",date:"2 Oct",dz:"10 月 2 日",title:"Meet all of Nailoong's animal friends",z:"认识奶龙的动物朋友们"},
-{id:"p-vJLPc_n8I",cat:"special",tag:"Special",tz:"特辑",date:"1 Oct",dz:"10 月 1 日",title:"When Nailoong plans a peaceful getaway",z:"奶龙想安安静静去度个假"},
-{id:"7kNON_Ndpd8",cat:"short",tag:"Short",tz:"短片",date:"4 Oct",dz:"10 月 4 日",title:"Nailoong shares his happiness through song",z:"奶龙用歌声分享快乐"},
-{id:"NNeGu_0WJI8",cat:"short",tag:"Short",tz:"短片",date:"2 Oct",dz:"10 月 2 日",title:"Nailoong and Seven rescue the little brother",z:"奶龙和小七勇救小弟弟"},
-{id:"zq2jLbZGS0k",cat:"short",tag:"Short",tz:"短片",date:"29 Sep",dz:"9 月 29 日",title:"Fall in love with Nailoong",z:"一起爱上奶龙"},
-{id:"I6HuHSj-Z9I",cat:"short",tag:"Short",tz:"短片",date:"27 Sep",dz:"9 月 27 日",title:"Nailoong's new robot friend",z:"奶龙的机器人新朋友"}
+{img:"imagery/scenes/hero.webp",cat:"story",tag:"Banner",tz:"横幅",date:"The hall",dz:"会场",title:"The cap at the podium",z:"讲台上的红帽"},
+{img:"imagery/scenes/mark.webp",cat:"story",tag:"Logo",tz:"标志",date:"The cap",dz:"红帽",title:"The red cap, held in a square",z:"红帽，收进方图"},
+{img:"imagery/memes/2.webp",cat:"still",tag:"Still",tz:"静帧",date:"Two pictures",dz:"两张图",title:"The cap and the podium",z:"红帽和讲台"},
+{img:"imagery/memes/3.webp",cat:"still",tag:"Still",tz:"静帧",date:"The labels",dz:"标注",title:"The cap, the mic, 2028",z:"红帽，话筒，2028"},
+{img:"imagery/memes/6.webp",cat:"story",tag:"Banner",tz:"横幅",date:"Four frames",dz:"四格",title:"Cap, hands, mic, hall",z:"红帽，双手，话筒，会场"},
+{img:"imagery/memes/1.webp",cat:"meme",tag:"Meme",tz:"海报",date:"The name",dz:"名字",title:"Trump 2028",z:"特朗普 2028"},
+{img:"imagery/memes/4.webp",cat:"meme",tag:"Meme",tz:"海报",date:"Three frames",dz:"三格",title:"The cap, the podium, the hall",z:"红帽，讲台，会场"},
+{img:"imagery/memes/5.webp",cat:"still",tag:"Still",tz:"静帧",date:"The mark",dz:"标记",title:"Trump 2028, close",z:"特朗普 2028，近景"}
 ];
 
-var NAI_ZH={"g1": "与<em>黄金</em>配对。", "g2": "$奶龙 在 PancakeSwap 上的主池与 XAUt（泰达黄金 Tether Gold）配对，而不是稳定币或 BNB。按 Tether 的说法，每枚 XAUt 代表一金衡盎司、符合伦敦交割标准的实物黄金，存放在瑞士金库中。", "g3": "奶龙在 2020 年 1 月首次亮相，和 Tether Gold 推出正好是同一个月。", "g4": "在 BscScan 查看 XAUt", "g5": "了解 Tether Gold", "g6": "交易池", "g7": "计价代币", "g8": "XAUt，泰达黄金", "g9": "池中黄金", "g10": "1 金衡盎司","dx1":"实时行情","tg1":"Telegram 群","tg2":"加入 Telegram 群","tg3":"社区群聊","t0": "<span>奶龙正在新加坡樟宜机场，活动持续到 2026 年 10 月 21 日</span> <a href=\"#token2049\">查看日期</a>", "t1": "<span>TOKEN2049 新加坡站将于 10 月 7 日至 8 日在滨海湾金沙举行</span> <a href=\"#token2049\">TOKEN2049 周</a>", "t2": "<span>奶龙在 2026 年 1 月迎来六周年，全网粉丝 3900 万</span> <a href=\"#numbers\">看数据</a>", "t3": "来历", "t4": "数据", "t5": "行情", "t6": "视频", "t7": "表情包", "t8": "买入 $奶龙", "t9": "<svg><use href=\"#i-x\"/></svg>关注 X", "t10": "已登陆 BNB 链", "t11": "<span class=\"badge badge--lg\">$奶龙</span><span class=\"hero__tagtext\">全网都认识的<br>那条奶龙</span>", "t12": "来自深圳的黄色小龙，全网粉丝 3900 万。赶在 TOKEN2049 落地新加坡的这一周，$奶龙 正式登陆 BNB 链。", "t13": "<svg><use href=\"#i-chart\"/></svg>看行情", "t14": "粉丝", "t15": "YouTube 播放", "t17": "<b>第二季</b><span>奶龙 VS 暴暴龙</span>", "t18": "BNB 链", "t19": "价格", "t20": "市值", "t21": "24 小时成交额", "t22": "流动性", "t23": "2019 深圳，2026 新加坡。", "t24": "六年，<em>3900 万</em>个好朋友。", "t25": "现已登陆 BNB 链 <span class=\"badge badge--md\">$奶龙</span>", "t26": "看看它的来历", "t27": "中文互联网的<em>顶流</em>小龙。", "t28": "中文互联网上辨识度最高的卡通形象之一。", "t29": "奶龙于 2020 年 1 月 22 日首次登上抖音和 B 站，2022 年前后在全国走红。此后它拿下多项商业价值类行业大奖，登上央视，还签下 200 多个品牌合作，周大福也在其中。2025 年 8 月，它的吐舌头表情包在海外 TikTok 爆火。现在，$奶龙 把它带上了 BNB 链。", "t30": "首发", "t31": "2020.01.22", "t32": "主阵地", "t33": "抖音", "t34": "品牌合作", "t35": "电视", "t36": "央视", "t37": "奶龙官方新闻<svg><use href=\"#i-out\"/></svg>", "t38": "奶龙是怎么<em>火</em>起来的。", "t39": "数据来自百度百科、奶龙官方新闻和 Know Your Meme，核对时间为 2026 年 10 月。", "t40": "2021.01", "t41": "380<em>万</em>", "t42": "单条视频获赞", "t43": "早期作品《A Huge Cobra!》成为它在抖音上最火的视频之一。", "t44": "百度百科", "t45": "2023.04", "t46": "前<em>十</em>", "t47": "抖音 IP", "t48": "入选抖音「轻漫计划 3.0」年度十大 IP。", "t49": "商业价值", "t50": "获评第七届玉猴奖年度十大最具商业价值动漫 IP。", "t51": "2025.08", "t52": "900<em>万</em>", "t53": "TikTok 播放", "t54": "一条表情包合集三天播放破 900 万，奶龙在欧美网络走红。", "t55": "2026.01", "t56": "3900<em>万</em>", "t57": "六周年之际登上央视，五座城市的大屏同步为它庆生。", "t58": "2026.03", "t59": "2.2<em>亿</em>", "t60": "抖音获赞", "t61": "来自 419 条作品，账号粉丝 2357.5 万。", "t62": "来历 · 第二章", "t63": "TOKEN2049 周，奶龙<em>也在</em>新加坡。", "t64": "今年十月 TOKEN2049 在新加坡举行，奶龙也在，樟宜机场的活动持续到 10 月 21 日。", "t65": "TOKEN2049 官方这样介绍自己", "t66": "&ldquo;全球规模最大的加密行业盛会。&rdquo;", "t67": "超过 25,000 名参会者来自 160 多个国家和地区，六成以上是企业高管。两天时间里，他们会占满滨海湾金沙的全部五层场馆；整整一周，新加坡各处还有 1,000 多场周边活动。", "t68": "日期", "t69": "2026 年 10 月 7 日至 8 日", "t70": "场馆", "t71": "滨海湾金沙", "t72": "闭幕派对", "t73": "After2049，10 月 9 日", "t74": "奶龙在樟宜", "t75": "9 月 22 日至 10 月 21 日", "t76": "TOKEN2049 新加坡站<svg><use href=\"#i-out\"/></svg>", "t77": "樟宜机场<svg><use href=\"#i-out\"/></svg>", "t78": "参会人数", "t79": "国家和地区", "t80": "参会企业", "t81": "参展商", "t82": "演讲嘉宾", "t83": "周边活动", "t84": "$奶龙 <em>实时</em>行情。", "t85": "<svg><use href=\"#i-copy\"/></svg>复制合约", "t86": "行情加载中", "t87": "图表由 GeckoTerminal 提供", "t88": "实时数据", "t89": "24 小时交易笔数", "t90": "已交易天数", "t91": "如何<em>购买</em>", "t92": "第 1 步", "t93": "准备钱包", "t94": "安装一个支持 BNB 链的钱包，比如币安钱包、MetaMask 或 Trust Wallet。", "t95": "第 2 步", "t96": "充值 BNB", "t97": "在交易所买入 BNB，提到你的 BNB 链钱包。BNB 同时用来支付网络手续费。", "t98": "第 3 步", "t99": "打开 $奶龙", "t100": "打开购买链接，核对合约地址和本页显示的一致。", "t101": "第 4 步", "t102": "兑换", "t103": "输入 BNB 数量，看好报价，在钱包里确认交易。", "t104": "正在播放 <span id=\"playerTag\"></span>", "t105": "视频与表情包", "t106": "奶龙<em>剧场</em>。", "t107": "剧集", "t108": "全部", "t109": "正片", "t110": "特辑", "t111": "短片", "t112": "<svg><use href=\"#i-yt\"/></svg>奶龙官方频道<svg><use href=\"#i-out\"/></svg>", "t113": "表情包，<em>拿去用</em>。", "t114": "社区", "t115": "加入 $奶龙 <em>大家庭</em>。", "t116": "最新消息、表情包和动态都会第一时间发在 X 上。", "t117": "<svg><use href=\"#i-x\"/></svg>关注 @nailoong_bnb", "t118": "官方剧集", "t119": "官网", "t120": "樟宜机场", "t121": "持续到 10 月 21 日", "t122": "BNB 链上的奶龙社区币。", "t123": "导航", "t124": "代币", "t125": "如何购买", "t126": "奶龙 YouTube 频道", "t127": "樟宜机场活动", "t128": "$奶龙 是独立的社区 meme 币，与第七印象及奶龙官方品牌没有任何关联，也未获得其认可或背书；它不是 TOKEN2049 或樟宜机场的官方合作方、赞助商或吉祥物。XAUt 交易对不代表获得 Tether 的任何支持，$奶龙 也未获得币安背书。奶龙的形象、美术作品和视频版权归各自权利人所有，本站展示仅为致敬这个角色。视频内嵌自奶龙官方 YouTube 频道。本站任何内容都不构成投资建议，加密资产存在风险。", "t129": "隐私说明：本站不使用 Cookie，也没有账户系统。首页视频通过 YouTube 隐私增强模式静音播放，其他剧集只有在你点击播放后才会加载，YouTube 可能对内嵌视频适用其自身政策。行情数据来自 Dexscreener，K 线图来自 GeckoTerminal，字体来自 Google Fonts。你的语言选择只保存在你自己的浏览器里。", "t130": "<svg><use href=\"#i-save\"/></svg>保存表情包"};
+var NAI_ZH={
+"g1":"以<em>红</em>为记。",
+"g2":"标记是这顶红帽。白字 TRUMP，白字 2028，上下各一排星星。方图是这顶帽子，横幅是同一顶帽子戴到讲台的话筒前。",
+"g3":"交易池上线后，合约地址会显示在本页。兑换前请先核对。",
+"g4":"看横幅",
+"g5":"如何购买",
+"g6":"链",
+"g7":"代币符号",
+"g8":"讲台",
+"g9":"地点",
+"g10":"帽子",
+"dx1":"有交易池后显示行情",
+"tg1":"海报",
+"tg2":"看海报",
+"s1":"红色",
+"s2":"红色",
+"t0":"<span>红帽上写着 TRUMP 2028</span> <a href=\"#sky\">看横幅</a>",
+"t1":"<span>$TRUMP2028 是这顶帽子在 Solana 上的社区币</span> <a href=\"#buy\">如何购买</a>",
+"t2":"<span>一顶帽子，一张讲台，一面蓝色背景</span> <a href=\"#numbers\">看标记</a>",
+"t3":"来历",
+"t4":"标记",
+"t5":"行情",
+"t6":"画面",
+"t7":"海报",
+"t8":"买入 $TRUMP2028",
+"t9":"<svg><use href=\"#i-out\"/></svg>看横幅",
+"t10":"已登陆 Solana",
+"t11":"<span class=\"badge badge--lg\">$TRUMP2028</span><span class=\"hero__tagtext\">2028 年的<br>那顶红帽</span>",
+"t12":"标志是一顶红帽，白字 TRUMP 在上，2028 在下，上下各一排星星。横幅里，同一顶帽子戴到话筒前，黑色礼服，蓝色会场。$TRUMP2028 是这个标记在 Solana 上的社区币。",
+"t13":"<svg><use href=\"#i-chart\"/></svg>看行情",
+"t14":"帽子",
+"t15":"链",
+"t16":"看来历",
+"t17":"<b>横幅</b><span>讲台上的红帽</span>",
+"t18":"Solana",
+"t19":"价格",
+"t20":"市值",
+"t21":"24 小时成交额",
+"t22":"流动性",
+"t23":"从帽子，到链上。",
+"t24":"一顶帽子。一个<em>年份</em>。",
+"t25":"现已登陆 Solana <span class=\"badge badge--md\">$TRUMP2028</span>",
+"t26":"看看它的来历",
+"t27":"蓝厅里的一顶<em>红帽</em>。",
+"t28":"这两张图就是全部故事。",
+"t29":"标志是帽子本身：红布，白字 TRUMP，白字 2028，上面一排星星，下面一排星星。横幅是同一顶帽子戴到话筒前。黑色礼服，领结，双手按着帽檐，身后是写着字的蓝色背景。$TRUMP2028 是这个标记在 Solana 上的社区币。",
+"t30":"名字",
+"t32":"符号",
+"t33":"红帽",
+"t34":"标记",
+"t35":"链",
+"t37":"看宽横幅",
+"t38":"这顶帽子是怎么有了<em>符号</em>。",
+"t39":"从标志和横幅上读出来。这里没有借来的数字。",
+"t40":"帽子",
+"t42":"标志",
+"t43":"一顶红帽，拍成方图。白字，两排星星，画面里没有别的东西。",
+"t44":"标志",
+"t44b":"横幅",
+"t45":"文字",
+"t46":"2028",
+"t47":"写在布上",
+"t48":"上面一行是 TRUMP。下面一行是 2028。横幅里的帽子是同样两行字。",
+"t49":"每一排",
+"t50":"名字上面五颗星，年份下面五颗星，左右各有一条白线。",
+"t51":"星星",
+"t52":"蓝",
+"t53":"横幅",
+"t54":"帽子戴到话筒前。礼服，领结，双手按着帽檐，身后是蓝色的字。",
+"t55":"名字",
+"t57":"方图里是一顶帽子。宽图里是同一顶帽子戴在讲台上。字没有变。",
+"t58":"图画",
+"t59":"$TRUMP2028 是这顶帽子的社区币。交易池上线后，合约会显示在这里。",
+"t60":"标志与横幅",
+"t61":"代币",
+"t62":"讲台",
+"t62b":"来历 · 第二章",
+"t63":"同一顶帽子。<em>更大的厅</em>。",
+"t64":"横幅把这一组打开。标志上的帽子，就是话筒前的那一顶。",
+"t65":"横幅上",
+"t66":"&ldquo;帽子戴到了话筒前。&rdquo;",
+"t67":"标志是这顶帽子。横幅是这间厅。同样的红，同样的白字 TRUMP，同样的白字 2028。$TRUMP2028 是这两张图的符号。",
+"t68":"画面",
+"t69":"横幅",
+"t70":"标记",
+"t71":"红帽",
+"t72":"地点",
+"t73":"讲台",
+"t74":"链",
+"t76":"看来历",
+"t78":"年份",
+"t79":"帽子",
+"t80":"星星",
+"t81":"图画",
+"t82":"链",
+"t83":"代币",
+"t84":"$TRUMP2028 <em>实时</em>行情。",
+"t85":"<svg><use href=\"#i-copy\"/></svg>复制合约",
+"t86":"还没有交易池",
+"t87":"$TRUMP2028 有了实时池子后，行情会显示在这里",
+"t89":"24 小时交易笔数",
+"t90":"已交易天数",
+"t91":"如何<em>购买</em>",
+"t92":"第 1 步",
+"t93":"准备钱包",
+"t94":"安装一个 Solana 钱包，比如 Phantom、Solflare 或 Backpack。",
+"t95":"第 2 步",
+"t96":"充值 SOL",
+"t97":"在交易所买入 SOL，提到你的 Solana 钱包。SOL 同时用来支付网络手续费。",
+"t98":"第 3 步",
+"t99":"打开 $TRUMP2028",
+"t100":"打开购买链接，核对合约地址和本页显示的一致。",
+"t101":"第 4 步",
+"t102":"兑换",
+"t103":"输入 SOL 数量，看好报价，在钱包里确认交易。",
+"t104":"正在看 <span id=\"playerTag\"></span>",
+"t105":"画面与海报",
+"t106":"特朗普 2028 的<em>画面</em>。",
+"t107":"图片",
+"t108":"全部",
+"t109":"故事",
+"t110":"静帧",
+"t111":"海报",
+"t112":"全部海报",
+"t113":"从这顶<em>帽子</em>做出来的。",
+"t113b":"从帽子和横幅做出来的图",
+"t114":"社区",
+"t115":"加入 $TRUMP2028 <em>这边</em>。",
+"t116":"帽子、横幅和符号都在这个页面上。",
+"t117":"看来历",
+"t122":"Solana 上特朗普 2028 红帽的社区币。",
+"t123":"导航",
+"t124":"代币",
+"t125":"如何购买",
+"t128":"$TRUMP2028 是标志里那顶帽子和横幅里那个讲台的独立社区 meme 币。它与唐纳德·特朗普、任何竞选团队、任何政治委员会或 Solana Labs 都没有关联，也未获得其认可。本站任何内容都不构成投资建议，加密资产存在风险。",
+"t129":"隐私说明：本站不使用 Cookie，也没有账户系统。只有在设置了合约之后，才会从 Dexscreener 加载行情，从 GeckoTerminal 加载图表。字体来自 Google Fonts。你的语言选择只保存在你自己的浏览器里。",
+"t130":"<svg><use href=\"#i-save\"/></svg>保存海报"
+};
 
 var NAI_MEMES=[
-{file:"12",w:1400,h:788,tw:1137,alt:"Nailoong in sunglasses bursting through a phone screen beside a TOKEN2049 Singapore sign"},
-{file:"1",w:1120,h:1400,tw:512,alt:"Nailoong bursting through paper under the words 100B+ video views"},
-{file:"16",w:1400,h:933,tw:960,alt:"Nailoong reading a TOKEN2049 Singapore map with keynote, meetup and afterparty stops"},
-{file:"2",w:1120,h:1400,tw:512,alt:"Nailoong running past a TOKEN2049 Singapore sign under 100M+ views in 3 days"},
-{file:"13",w:1400,h:788,tw:1137,alt:"Nailoong pointing at the Marina Bay skyline under the words 500M+ organic overseas impressions"},
-{file:"14",w:1120,h:1400,tw:512,alt:"Nailoong holding up a TOKEN2049 badge with a $奶龙 match on screen"},
-{file:"4",w:1400,h:933,tw:960,alt:"Nailoong next to a giant NAILOONG $奶龙 billboard at night"},
-{file:"11",w:1120,h:1400,tw:512,alt:"Nailoong bursting out of a ring of sticker faces under the words 10B+ sticker sends"},
-{file:"18",w:1400,h:700,tw:1280,alt:"Nailoong sipping a drink by Marina Bay at sunset with the words GM Singapore"},
-{file:"5",w:1120,h:1400,tw:512,alt:"Nailoong in front of a Look who's here poster at TOKEN2049"},
-{file:"15",w:1254,h:1254,tw:640,alt:"Nailoong popping out of a phone under the words 600K+ WhatsApp sticker downloads"},
-{file:"6",w:1400,h:788,tw:1137,alt:"Nailoong looking over a city skyline under 3.5B+ overseas video views"},
-{file:"20",w:1254,h:1254,tw:640,alt:"Nailoong following a Snacks sign past steaming dumplings outside TOKEN2049"},
-{file:"7",w:1120,h:1400,tw:512,alt:"Nailoong in sunglasses giving a thumbs up under 100B+ video views"},
-{file:"19",w:1400,h:933,tw:960,alt:"Nailoong holding a $奶龙 passport above a globe under the words 57 countries and regions"},
-{file:"3",w:1000,h:1000,tw:640,alt:"Nailoong peeking around a 39M+ global followers card"},
-{file:"8",w:1374,h:1145,tw:768,alt:"Nailoong in glasses pinning a TOKEN2049 Singapore $奶龙 poster to a locker"},
-{file:"17",w:1050,h:1400,tw:480,alt:"Nailoong with a film clapperboard under the words 12.9M+ series topic reads"},
-{file:"9",w:1400,h:1050,tw:853,alt:"Nailoong on stage in front of a screen reading The case for $奶龙"},
-{file:"10",w:1400,h:788,tw:1137,alt:"Nailoong in a leather jacket and gold watch tapping his head with a grin"}
+{file:"1",w:1080,h:1080,tw:640,alt:"Red Trump 2028 cap, captioned TRUMP and 2028"},
+{file:"2",w:1280,h:720,tw:1138,alt:"The Trump 2028 cap beside the podium photo, labeled THE CAP and THE PODIUM"},
+{file:"3",w:1152,h:864,tw:853,alt:"Podium photo labeled the cap, the mic, and 2028"},
+{file:"4",w:864,h:1152,tw:480,alt:"Three frames labeled the cap, the podium, and the hall"},
+{file:"5",w:1000,h:1000,tw:640,alt:"Red card with the Trump 2028 cap, TRUMP, 2028, and $TRUMP2028"},
+{file:"6",w:1400,h:788,tw:1138,alt:"Four frames labeled cap, hands, mic, and hall"}
 ];
 
 (function(){
@@ -60,7 +180,9 @@ function L(en,zh){return LANG==="zh"?zh:en}
 function vTitle(v){return L(v.title,v.z)}
 function vMeta(v,sep){return LANG==="zh"?v.tz+" · "+v.dz:v.tag+sep+v.date}
 var CA=(C.CA||"").trim();
-var hasCA=/^0x[a-fA-F0-9]{40}$/.test(CA);
+function isAddr(s){return /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(s)}
+var hasCA=isAddr(CA);
+var showCA=!!CA;
 var chartUrl="";
 
 var toast=$("toast");
@@ -72,7 +194,7 @@ clearTimeout(toastTimer);
 toastTimer=setTimeout(function(){toast.classList.remove("show")},2200);
 }
 function copyCA(){
-if(!hasCA)return;
+if(!showCA)return;
 var done=function(){showToast(L("Contract address copied","合约地址已复制"))};
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(CA).then(done,done);return}
 var ta=doc.createElement("textarea");
@@ -83,16 +205,21 @@ doc.body.removeChild(ta);done();
 }
 
 function setupToken(){
-all("[data-ca-only]").forEach(function(el){el.hidden=!hasCA});
-if(!hasCA)return;
-all("[data-ca-short]").forEach(function(el){el.textContent=CA.slice(0,6)+"..."+CA.slice(-4)});
+all("[data-ca-only]").forEach(function(el){
+if(el.hasAttribute("data-chart")||el.hasAttribute("data-scan")){el.hidden=!hasCA;return}
+el.hidden=!showCA;
+});
+if(!showCA)return;
+var short=hasCA?CA.slice(0,6)+"..."+CA.slice(-4):CA;
+all("[data-ca-short]").forEach(function(el){el.textContent=short});
 all("[data-ca-full]").forEach(function(el){el.textContent=CA});
 all("[data-copy]").forEach(function(b){b.addEventListener("click",copyCA)});
-var buy=C.BUY_URL||("https://pancakeswap.finance/swap?chain="+C.CHAIN+"&outputCurrency="+CA);
+if(!hasCA)return;
+var buy=C.BUY_URL||("https://jup.ag/swap/SOL-"+CA);
 all("[data-buy]").forEach(function(a){a.href=buy;a.target="_blank";a.rel="noopener"});
-all("[data-scan]").forEach(function(a){a.href="https://bscscan.com/token/"+CA});
+all("[data-scan]").forEach(function(a){a.href="https://solscan.io/token/"+CA;a.target="_blank";a.rel="noopener"});
 var pair=(C.PAIR||"").trim();
-if(/^0x[a-fA-F0-9]{40}$/.test(pair)){setChartLinks("https://dexscreener.com/"+C.CHAIN+"/"+pair);mountChart(pair)}
+if(isAddr(pair)){setChartLinks("https://dexscreener.com/"+C.CHAIN+"/"+pair);mountChart(pair)}
 }
 
 function setChartLinks(url){
@@ -143,7 +270,7 @@ if(chartMounted||!pair)return;
 chartMounted=true;
 var box=$("chart");
 var f=doc.createElement("iframe");
-f.title="$奶龙 live chart";
+f.title="$TRUMP2028 live chart";
 f.src="https://www.geckoterminal.com/"+C.CHAIN+"/pools/"+pair+"?embed=1&info=0&swaps=0&grayscale=0&light_chart=1&chart_type=price&resolution=15m";
 f.setAttribute("allow","clipboard-write");
 f.addEventListener("load",function(){box.setAttribute("data-mode","live")});
@@ -168,7 +295,7 @@ var trades=tx?(Number(tx.buys)||0)+(Number(tx.sells)||0):0;
 setM("trades",trades>0?trades.toLocaleString("en-US"):"--");
 var made=Number(p.pairCreatedAt);
 if(isFinite(made)&&made>0)setM("age",String(Math.max(1,Math.floor((Date.now()-made)/864e5))));
-if(p.quoteToken&&p.quoteToken.symbol)setM("pair","$奶龙 / "+p.quoteToken.symbol);
+if(p.quoteToken&&p.quoteToken.symbol)setM("pair","$TRUMP2028 / "+p.quoteToken.symbol);
 var gold=p.quoteToken&&/^XAU/i.test(p.quoteToken.symbol||"");
 var gq=Number(p.liquidity&&p.liquidity.quote);
 if(gold&&isFinite(gq)&&gq>0)setM("gold",gq.toFixed(2)+" XAUt");
@@ -193,13 +320,12 @@ function showVideo(i){
 vidIndex=(i+NAI_VIDEOS.length)%NAI_VIDEOS.length;
 var v=NAI_VIDEOS[vidIndex];
 stopPlayback();
-thumb.onerror=function(){thumb.onerror=null;thumb.src=thumbFor(v.id,"hqdefault")};
-thumb.src=thumbFor(v.id,"maxresdefault");
+thumb.onerror=null;
+thumb.src=v.img;
 thumb.alt=vTitle(v);
-poster.setAttribute("aria-label",L("Play: ","播放：")+vTitle(v));
+poster.setAttribute("aria-label",L("Show: ","查看：")+vTitle(v));
 setText("playerTitle",vTitle(v));
 setText("playerTag",vMeta(v,", "));
-var yt=$("vidYt");if(yt)yt.href="https://www.youtube.com/watch?v="+v.id;
 var vis=visibleVids(),pos=vis.indexOf(vidIndex);
 setText("vidCount",(pos<0?1:pos+1)+" / "+vis.length);
 all("button",list).forEach(function(b,n){b.classList.toggle("is-on",n===vidIndex);b.setAttribute("aria-current",n===vidIndex?"true":"false")});
@@ -219,20 +345,7 @@ showVideo(pos<0?vis[0]:vis[(pos+dir+vis.length)%vis.length]);
 }
 function playVideo(){
 engaged=true;
-watchPlaying=true;
-if(!heroMuted)setSound(true);
-heroCmd("mute");
-heroCmd("pauseVideo");
 clearInterval(rotateTimer);
-var v=NAI_VIDEOS[vidIndex];
-var f=doc.createElement("iframe");
-f.src="https://www.youtube-nocookie.com/embed/"+v.id+"?autoplay=1&rel=0&playsinline=1";
-f.title=vTitle(v);
-f.setAttribute("allow","autoplay; encrypted-media; picture-in-picture; fullscreen");
-f.setAttribute("allowfullscreen","");
-f.setAttribute("referrerpolicy","strict-origin-when-cross-origin");
-frame.appendChild(f);
-player.classList.add("is-playing");
 }
 function startRotate(){
 clearInterval(rotateTimer);
@@ -248,7 +361,7 @@ v.btn=b;
 b.setAttribute("aria-label","Play: "+v.title);
 var th=doc.createElement("span");th.className="eps__thumb";
 var im=doc.createElement("img");
-im.src=thumbFor(v.id,"mqdefault");im.alt="";im.loading="lazy";im.width=320;im.height=180;
+im.src=v.img;im.alt="";im.loading="lazy";im.width=320;im.height=180;
 var pl=doc.createElement("i");pl.className="eps__play";pl.innerHTML='<svg><use href="#i-play"/></svg>';
 th.appendChild(im);th.appendChild(pl);
 var meta=doc.createElement("span");meta.className="eps__meta";
@@ -256,7 +369,7 @@ var sm=doc.createElement("small");sm.textContent=v.tag+" \u00b7 "+v.date;v.sm=sm
 var tt=doc.createElement("span");tt.className="eps__title";tt.textContent=v.title;v.tt=tt;
 meta.appendChild(sm);meta.appendChild(tt);
 b.appendChild(th);b.appendChild(meta);
-b.addEventListener("click",function(){engaged=true;clearInterval(rotateTimer);showVideo(n);playVideo()});
+b.addEventListener("click",function(){engaged=true;clearInterval(rotateTimer);showVideo(n)});
 li.appendChild(b);list.appendChild(li);
 });
 all(".eps-tabs button").forEach(function(t){t.addEventListener("click",function(){
@@ -267,7 +380,7 @@ list.scrollTop=0;list.scrollLeft=0;
 var vis=visibleVids();
 if(vis.indexOf(vidIndex)<0&&vis.length)showVideo(vis[0]);else showVideo(vidIndex);
 })});
-poster.addEventListener("click",playVideo);
+poster.addEventListener("click",function(){engaged=true;clearInterval(rotateTimer);stepVideo(1)});
 $("vidPrev").addEventListener("click",function(){engaged=true;clearInterval(rotateTimer);stepVideo(-1)});
 $("vidNext").addEventListener("click",function(){engaged=true;clearInterval(rotateTimer);stepVideo(1)});
 player.addEventListener("mouseenter",function(){clearInterval(rotateTimer)});
@@ -291,11 +404,11 @@ if(!heroIframe||!heroIframe.contentWindow)return;
 try{heroIframe.contentWindow.postMessage(JSON.stringify({event:"command",func:func,args:args||[]}),"*")}catch(e){}
 }
 function mountHero(){
-if(reduce||heroIframe)return;
+if(reduce||heroIframe||!C.HERO_VIDEO)return;
 var f=doc.createElement("iframe");
 var origin=location.origin&&location.origin.indexOf("http")===0?"&origin="+encodeURIComponent(location.origin):"";
 f.src="https://www.youtube-nocookie.com/embed/"+C.HERO_VIDEO+"?autoplay=1&mute=1&loop=1&playlist="+C.HERO_VIDEO+"&controls=0&rel=0&playsinline=1&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0&enablejsapi=1"+origin;
-f.title="Nailoong Season 2, playing muted";
+f.title="Trump 2028";
 f.setAttribute("allow","autoplay; encrypted-media; picture-in-picture");
 f.setAttribute("referrerpolicy","strict-origin-when-cross-origin");
 f.setAttribute("tabindex","-1");
@@ -352,7 +465,7 @@ var m=NAI_MEMES[lbIndex];
 var src="imagery/memes/"+m.file+".webp";
 lbImg.src=src;lbImg.alt=m.alt;
 $("lbSave").href=src;
-$("lbSave").setAttribute("download","nailoong-"+m.file+".webp");
+$("lbSave").setAttribute("download","trump2028-"+m.file+".webp");
 }
 function openLightbox(i,from){lbReturn=from;showMeme(i);lightbox.hidden=false;$("lbClose").focus()}
 all("[data-meme]").forEach(function(b){b.addEventListener("click",function(){var f=b.getAttribute("data-meme");for(var i=0;i<NAI_MEMES.length;i++){if(NAI_MEMES[i].file===f){openLightbox(i,b);return}}})});
@@ -382,7 +495,7 @@ if(el.enHTML==null)el.enHTML=el.innerHTML;
 var k=el.getAttribute("data-i18n");
 el.innerHTML=zh&&NAI_ZH[k]!=null?NAI_ZH[k]:el.enHTML;
 });
-doc.title=zh?"奶龙 NAILOONG | $奶龙 登陆 BNB 链":titleEn;
+doc.title=zh?"特朗普 2028 | $TRUMP2028 登陆 Solana":titleEn;
 if(zh&&!zhFont){zhFont=true;var lk=doc.createElement("link");lk.rel="stylesheet";lk.href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap";doc.head.appendChild(lk)}
 setText("langMain",zh?"翻译":"Translate");
 setText("langSub",zh?"Switch to English":"切换到中文");
@@ -397,11 +510,11 @@ if(cur){setText("playerTitle",vTitle(cur));setText("playerTag",vMeta(cur,", "));
 var vis=visibleVids(),pos=vis.indexOf(vidIndex);setText("vidCount",(pos<0?1:pos+1)+" / "+vis.length);
 setSound(heroMuted);
 loadMarket();
-try{localStorage.setItem("nai_lang",LANG)}catch(e){}
+try{localStorage.setItem("trump_lang",LANG)}catch(e){}
 }
 function setupLang(){
 var saved=null;
-try{saved=localStorage.getItem("nai_lang")}catch(e){}
+try{saved=localStorage.getItem("trump_lang")}catch(e){}
 var nav=(navigator.language||"").toLowerCase();
 var start=saved==="zh"||saved==="en"?saved:(nav.indexOf("zh")===0?"zh":"en");
 var lb=$("langBtn");
@@ -423,6 +536,13 @@ en.forEach(function(x){if(!x.isIntersecting)return;var t=x.target;t.classList.ad
 items.forEach(function(el){io.observe(el)});
 }
 
+function setupSocial(){
+var x=(C.X_URL||"").trim();
+var tg=(C.TG_URL||"").trim();
+if(x)all("[data-x]").forEach(function(a){a.href=x;a.target="_blank";a.rel="noopener"});
+if(tg)all("[data-tg]").forEach(function(a){a.href=tg;a.target="_blank";a.rel="noopener"});
+}
+setupSocial();
 setupToken();
 setupLang();
 setText("year",String(new Date().getFullYear()));

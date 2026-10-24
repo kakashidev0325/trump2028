@@ -180,5 +180,3 @@ Disallow: /
 
 User-agent: *
 Allow: /
-
-Sitemap: https://nailoongbnb.com/sitemap.xml
