@@ -1,5 +1,5 @@
 var NAI_CONFIG={
-CA:"TBA",
+CA:"7fiYubWJ7r31zfZeMDbxEU3osGBUQqc6hYWwu3Tzpump",
 BUY_URL:"",
 CHAIN:"solana",
 PAIR:"",
